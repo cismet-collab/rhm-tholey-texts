@@ -6,6 +6,7 @@
   "homepage": ".",
   "main": "index.js",
   "module": "index.js",
+  "private": false,
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },

@@ -44,8 +44,8 @@ const Component = () => {
             prüfen (inkl. der Grundstücksentwässerungsanlage). Die Anzeige der
             maximalen Fließgeschwindigkeiten erfolgt in der Einheit "Meter pro
             Sekunde" (m/s), gerundet auf eine Nachkommastelle.
-            Fließgeschwindigkeiten von mehr als 6 Meter pro Sekunde werden als
-            "> 6 m/s" angezeigt.
+            Fließgeschwindigkeiten von mehr als 4 Meter pro Sekunde werden als
+            "> 4 m/s" angezeigt.
           </p>
           <p>
             <b>Tipp für die Abfrage der maximalen Fließgeschwindigkeiten:</b>{" "}

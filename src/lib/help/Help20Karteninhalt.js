@@ -34,16 +34,23 @@ const Component = () => {
             unten direkt über dem Eingabefeld) finden Sie das{" "}
             <b>Kontrollfeld</b>, mit dem Sie den weiteren Karteninhalt nach
             Ihren Wünschen festlegen können. Klicken Sie unter <b>Simulation</b>{" "}
-            auf eine der zwei Schaltflächen, um die Starkregensimulation
-            auszuwählen, die angezeigt werden soll (Stärke 7, Stärke 10).
-            Details zu den Simulationsberechnungen finden Sie hier in der
+            auf eine der drei Schaltflächen, um die Starkregensimulation
+            auszuwählen, die angezeigt werden soll (Stärke 7, Aus). Hier können
+            Sie auch die Ebene mit den Gebäudegefährdungen ein- und ausblenden.
+            Die Details zu den Simulationsberechnungen finden Sie hier in der
             Kompaktanleitung unter{" "}
-            <a onClick={() => setAppMenuActiveMenuSection("datengrundlage")}>
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("datengrundlage")}
+            >
               Datengrundlagen
             </a>{" "}
             und{" "}
-            <a onClick={() => setAppMenuActiveMenuSection("szenarien")}>
-              Simulierte Szenarien
+            <a
+              className="renderAsLink"
+              onClick={() => setAppMenuActiveMenuSection("szenarien")}
+            >
+              Simuliertes Szenario
             </a>
             .
           </p>
@@ -75,13 +82,13 @@ const Component = () => {
             Die Animation vermittelt ein besonders anschauliches Bild des
             komplexen Abflussgeschehens bei einem Starkregenereignis. Die
             Animation steht nur bei der Betrachtung der Starkregengefahrenkarte
-            in einem Detailmaßstab (Zoomstufen 18 bis 22) zur Verfügung, in den
-            Übersichtsmaßstäben (Zoomstufen 17 und kleiner) wird sie automatisch
+            in einem Detailmaßstab (Zoomstufen 17 bis 22) zur Verfügung, in den
+            Übersichtsmaßstäben (Zoomstufen 16 und kleiner) wird sie automatisch
             ausgeblendet. Die Animation wird für jede Kartenansicht neu online
             berechnet, sodass die Anzeigegeschwindigkeit von der
             Internetübertragung abhängt. Wenn die Animation nicht angezeigt
             wird, blenden wir in der Kartenansicht "max. Fließgeschwindigkeiten"
-            in Detailmaßstäben (hier bis zur Zoomstufe 14) statische
+            in Detailmaßstäben (hier bis zur Zoomstufe 15) statische
             Fließrichtungspfeile ein, um die Hauptrichtungen des
             Regenwasserabflusses zu visualisieren.
           </p>
@@ -90,8 +97,8 @@ const Component = () => {
             Legende, mit der die zur Klassifizierung der maximalen simulierten
             Wassertiefen bzw. Fließgeschwindigkeiten verwendeten Farben
             erläutert werden. Direkt darunter finden Sie die Bezeichnung und (in
-            kleiner Schrift) eine Kurzbeschreibung des aktuell ausgewählten
-            Simulationsszenarios. Über den Link{" "}
+            kleiner Schrift) eine Kurzbeschreibung des Simulationsszenarios.
+            Über den Link{" "}
             <a onClick={() => setAppMenuActiveMenuSection("szenarien")}>
               (mehr)
             </a>{" "}

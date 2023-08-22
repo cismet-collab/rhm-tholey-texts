@@ -14,6 +14,8 @@ const Component = () => {
       sectionBsStyle="info"
       sectionContent={
         <div>
+          <p> !!! Dies ist nur ein Platzhaltertext !!!</p>
+
           <p>
             Die Starkregengefahrenkarte zeigt die Ergebnisse von Simulationen,
             die dem heutigen Stand der Technik entsprechen. Die Berechnungen

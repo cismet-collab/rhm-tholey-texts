@@ -10,10 +10,11 @@ const Component = ({ uiState, uiStateActions }) => {
       uiState={uiState}
       uiStateActions={uiStateActions}
       sectionKey="szenarien"
-      sectionTitle="Simulierte Szenarien"
+      sectionTitle="Simuliertes Szenario"
       sectionBsStyle="info"
       sectionContent={
         <div>
+          <p> !!! Dies ist nur ein Platzhaltertext !!!</p>
           <p>
             Zwei der berechneten Simulationen wurden mit "künstlichen"
             Modellregen durchgeführt. Bei diesen Simulationen erfolgt eine

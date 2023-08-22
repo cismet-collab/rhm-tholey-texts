@@ -107,46 +107,39 @@ const Component = () => {
               (OpenStreetMap contributors).
             </li>
             <li>
-              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des RVR.
-              Datengrundlage:{" "}
-              <strong>Digitale Orthophotos (DOP) des Landes NRW</strong>{" "}
-              WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
-              entzerrte Luftbilder des Landes NRW. (
+              <strong>Stadtplan (bunt)</strong>: Kartendienst (vektorbasiert)
+              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
+              Wöchentlich in einem automatischen Prozess aktualisierte
+              Bereitstellung der OpenStreetMap als Vektorlayer mit der
+              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
               <a
                 target="_legal"
-                href="https://www.bezreg-koeln.nrw.de/brk_internet/geobasis/luftbildinformationen/aktuell/digitale_orthophotos/index.html"
+                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+              >
+                Openmaptiles
+              </a>{" "}
+              und{" "}
+              <a
+                target="_legal"
+                href="https://www.opendatacommons.org/licenses/odbl/1.0/"
+              >
+                ODbL
+              </a>{" "}
+              (OpenStreetMap contributors).
+            </li>
+            <li>
+              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des LVGL.
+              Datengrundlage:{" "}
+              <strong>Digitale Orthophotos (DOP) des Saarlandes</strong>{" "}
+              WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
+              entzerrte Luftbilder des Saarlandes. (
+              <a
+                target="_legal"
+                href="https://geoportal.saarland.de/mapbender/php/mod_showMetadata.php?languageCode=de&resource=layer&layout=tabs&id=44340"
               >
                 weiter Informationen
               </a>
-              ). (2) Kartendienste (WMS) des Regionalverbandes Ruhr (RVR).
-              Datengrundlagen: <strong>Stadtkarte 2.0</strong> und{" "}
-              <strong>Kartenschrift aus der Stadtkarte 2.0</strong>. (Details s.
-              Hintergrundkarte Stadtplan).
-            </li>
-            <li>
-              <strong>DTK (bunt)</strong>: DTK Sammeldienst des Landes NRW.
-              Datengrundlage: <strong>DTK (bunt)</strong> Dieser Dienst enthält
-              alle topographischen Kartenwerke des Landes Nordrhein-Westfalen
-              sowie in den kleineren Maßstäben topographische Kartenwerke des
-              Bundes. Angefangen von einer Übersichtskarte für NRW über die
-              DTK500 bis zur DTK250 des Bundesamtes für Kartographie und
-              Geodäsie und den topographischen Karten DTK100, DTK50, DTK25,
-              DTK10 NRW von Geobasis NRW, bis hin zur ABK und ALKIS der Kommunen
-              sind alle Standardkartenwerke in einem Layer vereint. Durch die
-              voreingestellten Maßstabsbereiche wird gewährleistet, dass in
-              jedem Maßstab die ideale Karte präsentiert wird.
-              Nutzungsbedingungen: siehe{" "}
-              <a
-                target="_legal"
-                href="http://www.bezreg-koeln.nrw.de/brk_internet/geobasis/lizenzbedingungen_geobasis_nrw.pdf"
-              >
-                Nutzungsbedingungen Geobasis NRW
-              </a>
-              , Für die DTK 250, DTK 500 gelten die Nutzungsbedingungen des BKG:
-              ©{" "}
-              <a target="_legal" href="www.govdata.de/dl-de/by-2-0">
-                GeoBasis-DE / BKG(2020) dl-de/by-2-0
-              </a>
+              ). (2) Stadtplan (bunt) (siehe oben)
             </li>
           </ul>
         </div>

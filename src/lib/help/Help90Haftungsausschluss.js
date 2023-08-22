@@ -14,8 +14,8 @@ const Component = ({ appName }) => {
       sectionContent={
         <div>
           <p>
-            Alle Informationen zur Anwendung des "AIS Starkregenvorsorge"
-            erfolgen ohne Gewähr für ihre Richtigkeit. Es fällt in die
+            Alle Informationen zur Anwendung der "Starkregengefahrenkarte
+            Tholey" erfolgen ohne Gewähr für ihre Richtigkeit. Es fällt in die
             Verantwortung der Betrachter:innen, aus den dargestellten
             Informationen die spezifische Gefährdungslage einzuschätzen und
             Schlüsse für die Durchführbarkeit oder Wirtschaftlichkeit von

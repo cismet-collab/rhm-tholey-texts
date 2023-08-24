@@ -42,6 +42,15 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
+      hintergrundkartenText=" DOP © LVGL | Basiskarte (grau/bunt) © cismet | Openmaptiles | ODbL"
+      taglineModelling={
+        <div>
+          <b>Modellierung</b> (Version 1.0 | 11/2021):{" "}
+          <a target="_model" href="https://www.izes.de/">
+            IZES gGmbH
+          </a>{" "}
+        </div>
+      }
       version={version}
       reactCismapRHMVersion={reactCismapRHMVersion}
       logoUrl={footerLogoUrl}

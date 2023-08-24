@@ -29,7 +29,7 @@ const Component = () => {
 
           <p>
             Das Ergebnis der Simulation ist von der Dauer und Intensität des
-            Regens abhängig, der für die Simulation angenommen wird.1
+            Regens abhängig, der für die Simulation angenommen wird.
           </p>
           <p>
             Der Farbverlauf für die <strong>Wassertiefen</strong> nutzt die

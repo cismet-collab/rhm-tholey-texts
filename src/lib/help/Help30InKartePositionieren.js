@@ -12,7 +12,7 @@ const Component = () => {
         <div>
           <p>
             Um die Auswirkungen durch Starkregen in einem bestimmten Bereich des
-            Stadtgebietes zu erkunden, geben Sie den Anfang (mindestens zwei
+            Gemeindegebietes zu erkunden, geben Sie den Anfang (mindestens zwei
             Zeichen) einer Adresse im Eingabefeld links unten ein. In der
             inkrementellen Auswahlliste werden Ihnen passende Treffer angeboten.
             (Wenn Sie weitere Zeichen eingeben, wird der Inhalt der Auswahlliste

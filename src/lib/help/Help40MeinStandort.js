@@ -5,9 +5,9 @@ import MyLocation from "react-cismap/topicmaps/docBlocks/GenericHelpTextForMyLoc
 const Component = () => {
   return (
     <GenericModalMenuSection
-      sectionKey='standort'
-      sectionTitle='Mein Standort'
-      sectionBsStyle='success'
+      sectionKey="standort"
+      sectionTitle="Mein Standort"
+      sectionBsStyle="success"
       sectionContent={<MyLocation />}
     />
   );

@@ -8,7 +8,7 @@ function App() {
   const version = "0.test.0";
   const reactCismapRHMVersion = "0.test.0";
   const footerLogoUrl = undefined;
-  const email = "starkregen@cismet.de";
+  const email = "bauhof@tholey.de";
   const { setAppMenuVisible } = useContext(UIDispatchContext);
   useEffect(() => {
     setAppMenuVisible(true);

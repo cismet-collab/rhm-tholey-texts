@@ -16,15 +16,15 @@ const Component = ({ email }) => {
         <div>
           <p>
             Für telefonische Auskünfte zum Umgang mit der
-            Starkregengefahrenkarte Tholey, stehen Ihnen die Mitarbeitenden der
-            Gemeinde Tholey zur Verfügung.
+            Starkregengefahrenkarte Tholey, stehen Ihnen die Mitarbeiter und
+            Mitarbeiterinnen der Gemeinde Tholey zur Verfügung.
           </p>
 
           <p style={{ display: "flex" }}>
             <div>
               Gemeinde Tholey
               <br />
-              Bauamt
+              Fachbereich Bauen, Wohnen, Umwelt
               <br />
               Im Kloster 1
               <br />

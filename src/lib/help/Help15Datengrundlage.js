@@ -86,7 +86,7 @@ const Component = () => {
           </p>
           <ul>
             <li>
-              <strong>Stadtplan (grau)</strong>: Kartendienst (vektorbasiert)
+              <strong>Basiskarte (grau)</strong>: Kartendienst (vektorbasiert)
               der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
               Wöchentlich in einem automatischen Prozess aktualisierte
               Bereitstellung der OpenStreetMap als Vektorlayer mit der
@@ -107,8 +107,8 @@ const Component = () => {
               (OpenStreetMap contributors).
             </li>
             <li>
-              <strong>Stadtplan (bunt)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
+              <strong>Basiskarte (bunt)</strong>: Kartendienst (vektorbasiert)
+              der cismet GmbH. Datengrundlage: <strong>cismet basic</strong>.
               Wöchentlich in einem automatischen Prozess aktualisierte
               Bereitstellung der OpenStreetMap als Vektorlayer mit der
               OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}

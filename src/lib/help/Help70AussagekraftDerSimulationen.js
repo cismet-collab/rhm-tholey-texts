@@ -51,7 +51,10 @@ const Component = () => {
               Einflussmöglichkeiten zu berücksichtigen. Weitere hydrologische
               Prozesse, z. B. Interzeption, werden nicht berücksichitgt. Die
               Verdunstung spielt bei den hier betrachteten kurzen Niederschlägen
-              nur eine untergeordnete Rolle.
+              nur eine untergeordnete Rolle. In Zusammenhang mit
+              Starkregenereignissen kommt es in den meisten Fällen auch zu
+              Erosionserscheinungen. Diese sind mit der verwendeten
+              Simulationssoftware aktuell nicht darstellbar.
             </li>
 
             <li>
@@ -81,72 +84,38 @@ const Component = () => {
 
           <p>
             <strong>
-              Die Modellannahmen, die stadtgebietsweite Niederschlagsbelastung
-              und Fehler im Geländemodell können dazu führen, dass es zu
-              Abweichungen zwischen den Simulationsergebnissen und beobachteten
-              Überflutungen infolge von Starkregen kommen kann. Niederschläge
-              der Stufe SRI 7 bzw. 9/10 können daher je nach Randbedingungen in
-              der Realität auch etwas geringere oder höhere Wassertiefen auf der
-              Geländeoberfläche zur Folge haben.
+              Die Modellannahmen, eine gemeindegebietsweite gleiche
+              Niederschlagsbelastung und Fehler im Geländemodell können dazu
+              führen, dass es zu Abweichungen zwischen den
+              Simulationsergebnissen und beobachteten Überflutungen infolge von
+              Starkregen kommen kann. Niederschläge der Stufe SRI 7 können daher
+              je nach Randbedingungen in der Realität auch etwas geringere oder
+              höhere Wassertiefen auf der Geländeoberfläche zur Folge haben.
             </strong>{" "}
-            Die unterschiedlichen Betroffenheiten im Stadtgebiet lassen sich
-            aber sehr gut mit den Ergebnisdarstellungen aufzeigen. Die
-            dargestellten Szenarien (außergewöhnliches und extremes
-            Starkregenereignis) zeigen eine mögliche Spannweite der
-            Überflutungen im Modell auf. Je nach Betroffenheit und
-            Schadenspotential lassen sich auf dieser Grundlage Vorsorgemaßnahmen
-            bewerten.
+            Die unterschiedlichen Betroffenheiten im Gemeindegebiet lassen sich
+            aber sehr gut mit den Ergebnisdarstellungen aufzeigen. Je nach
+            Betroffenheit und Schadenspotential lassen sich auf dieser Grundlage
+            Vorsorgemaßnahmen bewerten.
           </p>
 
           <p>
-            <strong>
-              {" "}
-              Bitte berücksichtigen Sie, dass die Ergebnisse des dritten
-              Szenarios (Simulation des Extremereignisses vom 14. Juli 2021)
-              nicht unmittelbar mit den Ergebnissen der Modellregen (Szenario 1
-              und 2) verglichen werden können.{" "}
-            </strong>{" "}
-            Das Niederschlagsereignis im Juli 2021 war ein Ausnahmeereignis,
-            welches aus infolge vieler Randbedingungen und Umstände entstanden
-            ist. Alle Randbedingungen können im Modell nicht abgebildet werden.
-            Die Simulationsergebnisse jenes Niederschlages basieren entsprechend
-            lediglich auf der Grundlage des Niederschlagsverlaufes, der damals
-            stattgefunden hat. Weitere hydrologische Grundlagen, wie bspw.
-            Hochwassereinflüsse oder besondere Umstände, die bspw. zu Zerstörung
-            von Brücken oder Gebäuden geführt haben, können nicht abgebildet
-            werden und die Ergebnisse beeinflussen. Bereiche in der Nähe großer
-            Gewässer oder jener Gewässer, die unter besonderem
-            Hochwassereinfluss stehen können, sollten grundsätzlich nur unter
-            Hinzunahme und Berücksichtigung der geltenden
-            Hochwassergefahrenkarten, welche in einem Layer in der Darstellung
-            ergänzt werden können, interpretiert werden. Weiterhin ist zu
-            bedenken, dass das für die Simulation verwendete Geländemodell aus
-            Befliegungsdaten stammt, die nach der Flut aufgenommen wurden. Auch
-            hier können daher Differenzen zwischen den Simulationsergebnissen
-            und den damaligen Folgen und Geschehnissen auftreten. Bereiche, in
-            denen infolge der Flut derzeit große, für das Abflussgeschehen
-            bedeutsame Maßnahmen in Umsetzung sind, werden daher in der Karte
-            mit einem extra Layer abgedeckt, um Irritationen und
-            Missverständnisse zu vermeiden. Wir möchten betonen, dass der Fokus
-            dieser Karte auf der Starkregenvorsorge liegt und nicht auf der
-            Reproduktion bzw. Imitation des realen Ereignisses von 2021.
+            Da nicht alle kleinräumigen Strukturen im Digitalen Geländemodell
+            (DGM1) abgebildet werden können, bitten wir Sie, dabei zu helfen,
+            das DGM sukzessive zu verbessern, indem Sie vermutete Fehler im
+            Geländemodell melden! Bedenken Sie, dass es sein kann, dass ein
+            neues Gebäude in den Simulationen nicht berücksichtigt wurde, weil
+            es zum Zeitpunkt der Datenbereitstellung für die
+            Simulationsberechnungen noch nicht im Liegenschaftskataster
+            nachgewiesen war oder ggf. ein Gebäude inzwischen abgerissen wurde.
           </p>
           <p>
-            Da nicht alle kleinräumigen Strukturen im Digitalen Geländemodell
-            (DGM1), das vom Land NRW zur Verfügung gestellt und für die
-            Simulationen verwendet wird, abgebildet werden können, bitten wir
-            Sie, dabei zu helfen, das DGM sukzessive zu verbessern, indem Sie
-            vermutete{" "}
-            <a
-              onClick={() => setAppMenuActiveMenuSection("modellfehlermelden")}
-            >
-              Fehler im Geländemodell melden
-            </a>
-            ! Bedenken Sie, dass es sein kann, dass ein neues Gebäude in den
-            Simulationen nicht berücksichtigt wurde, weil es zum Zeitpunkt der
-            Datenbereitstellung für die Simulationsberechnungen noch nicht im
-            Liegenschaftskataster nachgewiesen war oder ggf. ein Gebäude
-            inzwischen abgerissen wurde.
+            Sowohl die Datengrundlagen für das Simulationsmodell als auch die
+            Simulationsergebnisse sind durch Ortsbegehungen und die kommunalen
+            Vertreter:innen verifiziert sowie in Expertenworkshops des
+            Klimaanpassungsnetzwerk Tholey zur Diskussion gestellt worden. Neben
+            Experten im Bereich Wasserwirtschaft und Wasserbau wurden auch der
+            Katastrophenschutz, die örtliche Feuerwehr und das Technische
+            Hilfswerk in die Evaluierung der Ergebnisse eingebunden.
           </p>
         </div>
       }

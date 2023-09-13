@@ -34,10 +34,10 @@ const Component = () => {
             unten direkt über dem Eingabefeld) finden Sie das{" "}
             <b>Kontrollfeld</b>, mit dem Sie den weiteren Karteninhalt nach
             Ihren Wünschen festlegen können. Klicken Sie unter <b>Simulation</b>{" "}
-            auf eine der drei Schaltflächen, um die Starkregensimulation
-            auszuwählen, die angezeigt werden soll (Stärke 7, Aus). Hier können
-            Sie auch die Ebene mit den Gebäudegefährdungen ein- und ausblenden.
-            Die Details zu den Simulationsberechnungen finden Sie hier in der
+            auf eine der beiden Schaltflächen, um die Starkregensimulation
+            auszuwählen oder abzuschalten (Stärke 7, Aus). Hier können Sie auch
+            die Ebene mit den Gebäudegefährdungen ein- und ausblenden. Die
+            Details zu den Simulationsberechnungen finden Sie hier in der
             Kompaktanleitung unter{" "}
             <a
               className="renderAsLink"

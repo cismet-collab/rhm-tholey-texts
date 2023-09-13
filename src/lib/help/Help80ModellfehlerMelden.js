@@ -25,17 +25,19 @@ const Component = ({ defaultContextValues = {}, email }) => {
               darstellen, die im Widerspruch zu Ihren vor Ort gewonnen
               Erfahrungen steht, liegt das wahrscheinlich an einem Fehler im
               Digitalen Geländemodell (DGM), das bei der Simulationsberechnung
-              verwendet wird. Woher kommen solche Fehler? Das DGM wird aus
-              Höhenmessungen abgeleitet, die mit einem Laserscanner aus einem
-              Flugzeug heraus durchgeführt werden. Bei diesem Messverfahren
-              werden Brücken, Tunnel und Gewässerdurchlässe, die für das
-              Abflussverhalten des Oberflächenwassers wichtig sind, nicht
-              erkannt. Sie werden daher nachträglich manuell in das DGM
-              eingearbeitet. Wenn dabei ein für den Abfluss sehr wichtiges
-              Element übersehen wurde, wird u. U. in der Simulationsberechnung
-              aus einer Brücke ein Damm. Im Ergebnis wird dann eine Aufstauung
-              des Wassers angezeigt, die sich im Gelände so nicht einstellen
-              würde!
+              verwendet wird.
+            </p>
+            <p>
+              Woher kommen solche Fehler? Das DGM wird aus Höhenmessungen
+              abgeleitet, die mit einem Laserscanner aus einem Flugzeug heraus
+              durchgeführt werden. Bei diesem Messverfahren werden Brücken,
+              Tunnel und Gewässerdurchlässe, die für das Abflussverhalten des
+              Oberflächenwassers wichtig sind, nicht erkannt. Sie werden daher
+              nachträglich manuell in das DGM eingearbeitet. Wenn dabei ein für
+              den Abfluss sehr wichtiges Element übersehen wurde, wird u. U. in
+              der Simulationsberechnung aus einer Brücke ein Damm. Im Ergebnis
+              wird dann eine Aufstauung des Wassers angezeigt, die sich im
+              Gelände so nicht einstellen würde!
             </p>
             <p>
               <b>

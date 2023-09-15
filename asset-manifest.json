@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.dc5db727.css",
-    "main.js": "./static/js/main.f882d3ea.js",
+    "main.js": "./static/js/main.20e38b23.js",
     "static/js/787.e94021bf.chunk.js": "./static/js/787.e94021bf.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "./static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/markers_default@2x.png": "./static/media/markers_default@2x.9593b3c72f31a3f4b403.png",
@@ -9,20 +9,20 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "./static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/markers_default.png": "./static/media/markers_default.c832adf43b69321540d3.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "./static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/IZESgGmbH_logo_1024.png": "./static/media/IZESgGmbH_logo_1024.ac4ff46a6c2e70440fdf.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "./static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/cismetSignet2k.png": "./static/media/cismetSignet2k.fbe76a931016df2e69fb.png",
-    "static/media/izes.png": "./static/media/izes.4caa869e00d4cde9cfa8.png",
     "static/media/MeinStandpunktMarkerDoppel.jpg": "./static/media/MeinStandpunktMarkerDoppel.e4a852718c8d263c78f1.jpg",
     "static/media/MeinStandpunktMarker.jpg": "./static/media/MeinStandpunktMarker.aec65d22b3fd2d2f5718.jpg",
     "static/media/spinner-solid.svg": "./static/media/spinner-solid.bc3f17b395ea75d350fb.svg",
     "index.html": "./index.html",
     "static/media/location-arrow-solid.svg": "./static/media/location-arrow-solid.0b7c9a27de87a0ec7420.svg",
     "main.dc5db727.css.map": "./static/css/main.dc5db727.css.map",
-    "main.f882d3ea.js.map": "./static/js/main.f882d3ea.js.map",
+    "main.20e38b23.js.map": "./static/js/main.20e38b23.js.map",
     "787.e94021bf.chunk.js.map": "./static/js/787.e94021bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc5db727.css",
-    "static/js/main.f882d3ea.js"
+    "static/js/main.20e38b23.js"
   ]
 }

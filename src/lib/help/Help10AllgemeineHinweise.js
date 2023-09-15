@@ -64,9 +64,10 @@ const Component = () => {
           <p>
             Zusätzlich zu den maximalen Wassertiefen und zu den maximalen
             Fließgeschwindigkeiten informiert die Starkregengefahrenkarte über
-            das Gefährdungspotenzial der Gebäude in Tholey. Übersteigt der
-            Wasserstand im Umkreis von 1 m um ein Gebäude die folgenden Werte
-            werden die Gebäude entsprechend farblich dargestellt:
+            das <strong>Gefährdungspotenzial der Gebäude</strong> in Tholey.
+            Übersteigt der Wasserstand im Umkreis von 1 m um ein Gebäude die
+            folgenden Werte werden die Gebäude entsprechend farblich
+            dargestellt:
             <ul>
               <li>&lt; 0,25 m – schwarz</li>
               <li>0,5 m – gelb </li>

@@ -1,7 +1,7 @@
 import React from "react";
 import GenericModalMenuSection from "react-cismap/topicmaps/menu/Section";
 import cismetLogo from "./assets/cismetSignet2k.png";
-import izesLogo from "./assets/izes.png";
+import izesLogo from "./assets/IZESgGmbH_logo_1024.png";
 
 import customerLogo from "./assets/tholey.png";
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -59,7 +59,7 @@ const Component = ({ email }) => {
                   <img
                     target="_contacts"
                     alt="Logo izes"
-                    height="40"
+                    height="60"
                     src={izesLogo}
                   />
                 </td>

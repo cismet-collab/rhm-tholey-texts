@@ -93,59 +93,53 @@ const Component = () => {
           <ul>
             <li>
               <strong>Basiskarte (grau)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet light</strong>.
-              Wöchentlich in einem automatischen Prozess aktualisierte
-              Bereitstellung der OpenStreetMap als Vektorlayer mit der
-              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
+              des BKG. <strong>basemap.de Web Vektor grau</strong>. Der
+              Kartendienst basemap.de Web Vektor ist ein von Bund und Ländern
+              gemeinsam entwickelter Kartendienst für Web und Mobil. Die
+              deutschlandweite Karte wird monatlich aktualisiert, ständig
+              weiterentwickelt und bietet die Qualität und Homogenität amtlicher
+              Geodaten. Als Webkarte ermöglicht der Dienst freies Zoomen von der
+              Deutschlandübersicht bis zu flächendeckenden 3D-Gebäudemodellen
+              und amtlichen Hausnummern in modernem Design. (
               <a
                 target="_legal"
-                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+                href="https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/basemapde_web_dienste_lizenz.pdf"
               >
-                Openmaptiles
-              </a>{" "}
-              und{" "}
-              <a
-                target="_legal"
-                href="https://www.opendatacommons.org/licenses/odbl/1.0/"
-              >
-                ODbL
-              </a>{" "}
-              (OpenStreetMap contributors).
+                Lizenz basemap.de Web-Dienste
+              </a>
+              )
             </li>
             <li>
               <strong>Basiskarte (bunt)</strong>: Kartendienst (vektorbasiert)
-              der cismet GmbH. Datengrundlage: <strong>cismet basic</strong>.
-              Wöchentlich in einem automatischen Prozess aktualisierte
-              Bereitstellung der OpenStreetMap als Vektorlayer mit der
-              OpenMapTiles-Server-Technologie. Lizenzen der Ausgangsprodukte:{" "}
+              des BKG. <strong>basemap.de Web Vektor Relief</strong>. Der
+              Kartendienst basemap.de Web Vektor ist ein von Bund und Ländern
+              gemeinsam entwickelter Kartendienst für Web und Mobil. Die
+              deutschlandweite Karte wird monatlich aktualisiert, ständig
+              weiterentwickelt und bietet die Qualität und Homogenität amtlicher
+              Geodaten. Als Webkarte ermöglicht der Dienst freies Zoomen von der
+              Deutschlandübersicht bis zu flächendeckenden 3D-Gebäudemodellen
+              und amtlichen Hausnummern in modernem Design. (
               <a
                 target="_legal"
-                href="https://github.com/openmaptiles/openmaptiles/blob/master/LICENSE.md"
+                href="https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/basemapde_web_dienste_lizenz.pdf"
               >
-                Openmaptiles
-              </a>{" "}
-              und{" "}
-              <a
-                target="_legal"
-                href="https://www.opendatacommons.org/licenses/odbl/1.0/"
-              >
-                ODbL
-              </a>{" "}
-              (OpenStreetMap contributors).
+                Lizenz basemap.de Web-Dienste
+              </a>
+              )
             </li>
             <li>
-              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des LVGL.
-              Datengrundlage:{" "}
+              <strong>Luftbildkarte</strong>: (1) Kartendienst (WMS) des LVGL
+              Saarland. Datengrundlage:{" "}
               <strong>Digitale Orthophotos (DOP) des Saarlandes</strong>{" "}
               WMS-Dienst für farbige, digitale, georeferenzierte, lagegenaue,
-              entzerrte Luftbilder des Saarlandes. (
+              entzerrte Luftbilder des Saarlandes. Lizenznummer DOP 33/16. (
               <a
                 target="_legal"
-                href="https://geoportal.saarland.de/mapbender/php/mod_showMetadata.php?languageCode=de&resource=layer&layout=tabs&id=44340"
+                href="https://geoportal.saarland.de/mapbender/php/mod_showMetadata.php?languageCode=en&resource=layer&layout=tabs&id=46746"
               >
-                weiter Informationen
+                weitere Informationen
               </a>
-              ). (2) Stadtplan (bunt) (siehe oben)
+              ). (2) Basiskarte (bunt) (siehe oben)
             </li>
           </ul>
         </div>

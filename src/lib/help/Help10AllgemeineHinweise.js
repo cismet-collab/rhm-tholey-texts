@@ -15,18 +15,20 @@ const Component = () => {
       sectionContent={
         <div>
           <p>
-            Die Starkregengefahrenkarte Tholey stellt einerseits die maximalen
-            Wassertiefen anderseits die maximalen Fließgeschwindigkeiten im
-            Gemeindegebiet dar, die im Verlauf eines simuliertes
-            Starkregenereignisses berechnet wurden. Über die Schaltfläche
-            „maximale Wassertiefen“ bzw. „maximale Fließgeschwindigkeiten“ kann
-            zwischen den beiden Ansichten gewechselt werden.
+            Die Starkregengefahrenkarte der Gemeinde Tholey stellt einerseits
+            die maximalen Wassertiefen anderseits die maximalen
+            Fließgeschwindigkeiten im Gemeindegebiet dar, die im Verlauf eines
+            simuliertes Starkregenereignisses berechnet wurden. Über die
+            Schaltfläche „maximale Wassertiefen“ bzw. „maximale
+            Fließgeschwindigkeiten“ kann zwischen den beiden Ansichten
+            gewechselt werden.
           </p>
           <p>
             Die simulierten Ergebnisse versuchen die Realität möglichst genau
             abzubilden, allerdings sind bei der Betrachtung und Interpretation
             der Ergebnisse die Datengrundlagen und -annahmen zu berücksichtigen.
-            Hinweise zu den
+            Hinweise zu den Datengrundlagen und zur Aussagekraft der Ergebnisse
+            werden nachfolgend beschrieben.
           </p>
 
           <p>
@@ -77,13 +79,13 @@ const Component = () => {
           </p>
 
           <p>
-            Die Starkregengefahrenkarte Tholey wurde im Rahmen des Projektes
-            Klimaanpassungsnetzwerk Tholey (KAN-T) durch die IZES gGmbH
-            erarbeitet. Das Projekt KAN-T wurde durch das Bundesministerium für
-            Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz
-            (BMUV) über die Förderrichtlinie "Maßnahmen zur Anpassung an die
-            Folgen des Klimawandels" gefördert. Das Projekt wurde im April 2022
-            abgeschlossen.
+            Die Starkregengefahrenkarte der Gemeinde Tholey wurde im Rahmen des
+            Projektes Klimaanpassungsnetzwerk Tholey (KAN-T) durch die IZES
+            gGmbH erarbeitet. Das Projekt KAN-T wurde durch das
+            Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und
+            Verbraucherschutz (BMUV) über die Förderrichtlinie "Maßnahmen zur
+            Anpassung an die Folgen des Klimawandels" gefördert. Das Projekt
+            wurde im April 2022 abgeschlossen.
           </p>
 
           <p>
@@ -91,8 +93,8 @@ const Component = () => {
             weiterhin der Thematik „Anpassung an den Klimawandel“ zu widmen und
             initiierte das Folgeprojekt KAN-T II, welches durch LEADER gefördert
             wird. KAN-T II legt den Fokus auf die Information, Sensibilisierung
-            und Beratung der Bürgerinnen und Bürger Tholeys. Ein essentieller
-            Baustein von KAN-T II ist dieser Visualisierung dieser
+            und Beratung der Bürgerinnen und Bürger der Gemeinde Tholey. Ein
+            essentieller Baustein von KAN-T II ist diese Visualisierung der
             Starkregengefahrenkarte auf der Homepage der Gemeinde Tholey.
           </p>
         </div>

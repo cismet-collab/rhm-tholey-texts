@@ -46,7 +46,8 @@ const Component = ({ uiState, uiStateActions }) => {
             <li>
               <strong>SRI 7:</strong> außergewöhnliches Starkregenereignis,
               100-jährliche Wiederkehrzeit nach KOSTRA-DWD-2020 mit einer Dauer
-              von 60 min, Niederschlagssumme von 56,3 l/m², Anfangsintensität
+              von 60 Minuten, Niederschlagssumme von 56,3 l/m²,
+              Anfangsintensität
             </li>
           </ul>
         </div>

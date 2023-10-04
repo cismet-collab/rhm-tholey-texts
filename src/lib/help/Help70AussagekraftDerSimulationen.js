@@ -14,8 +14,6 @@ const Component = () => {
       sectionBsStyle="info"
       sectionContent={
         <div>
-          <p> !!! Dies ist nur ein Platzhaltertext !!!</p>
-
           <p>
             Die Starkregengefahrenkarte zeigt die Ergebnisse von Simulationen,
             die dem heutigen Stand der Technik entsprechen. Die Berechnungen
@@ -111,10 +109,10 @@ const Component = () => {
           <p>
             Sowohl die Datengrundlagen für das Simulationsmodell als auch die
             Simulationsergebnisse sind durch Ortsbegehungen und die kommunalen
-            Vertreter:innen verifiziert sowie in Expertenworkshops des
-            Klimaanpassungsnetzwerk Tholey zur Diskussion gestellt worden. Neben
-            Experten im Bereich Wasserwirtschaft und Wasserbau wurden auch der
-            Katastrophenschutz, die örtliche Feuerwehr und das Technische
+            Vertreterinnen und Vertreter verifiziert sowie in Expertenworkshops
+            des Klimaanpassungsnetzwerkes Tholey zur Diskussion gestellt worden.
+            Neben Experten im Bereich Wasserwirtschaft und Wasserbau wurden auch
+            der Katastrophenschutz, die örtliche Feuerwehr und das Technische
             Hilfswerk in die Evaluierung der Ergebnisse eingebunden.
           </p>
         </div>

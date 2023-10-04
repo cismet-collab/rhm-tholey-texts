@@ -34,19 +34,19 @@ const Component = () => {
             hydrologischen Einzugsgebiete der Gemeinde Tholey generiert.
             Wesentliche Grundlage ist das Digitale Geländemodell mit einer
             Auflösung von 1 x 1 Meter (DGM1). Dieses DGM1 wird mittels
-            flächenhaften Höhenmessungen des Geländes, die durch das Saarland
+            flächenhaften Höhenmessungen des Geländes, die das Saarland
             turnusmäßig per Laserscanning aus einem Flugzeug heraus durchführt
             (Zeitpunkt der Aufnahme 2016), ermittelt. Für die Simulation wurde
             das DGM1 mittels Digitalem Oberflächenmodel (DOM1; flächenhaften
             Höhenmessungen aller Objekte auf dem Gelände) und dem
             Liegenschaftskataster (ALK; 04/2019) um die Gebäude und sonstige
-            Abflusshindernisse bzw. Geländeerhöhungen (u.a.
+            Abflusshindernisse bzw. Geländeerhöhungen (u.a.{" "}
             Grundstücksbegrenzungsmauern, teilweise Bewuchs) ergänzt.
           </p>
 
           <p>
             Das optimierte Digitale Geländemodell wurde anschließend um wichtige
-            Abflussinformationen entlang der einzelnen Gewässerabschnitte (u.a.
+            Abflussinformationen entlang der einzelnen Gewässerabschnitte (u.a.{" "}
             Verrohrungen, Einlaufbauwerke, Brückenbauwerke) ergänzt, um eine
             hydrologisch korrekte Abflussberechnung zu gewährleisten. In diesem
             Zusammenhang wurden weitere maßgebliche
@@ -54,7 +54,7 @@ const Component = () => {
             Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
             abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
             abgerissene oder geplante Gebäude gegebenenfalls angepasst. Sehr
-            neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z. B.
+            neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z.B.{" "}
             Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
             lassen sich dennoch wichtige Hinweise aus dem angrenzenden Gelände
             zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
@@ -68,14 +68,14 @@ const Component = () => {
             Die Bemessungsgrenze des Kanalnetzes wird bei dem hier simulierten
             Ereignis überschritten. Der größte Anteil des Niederschlagwassers
             fließt oberirdisch ab, wobei im urbanen Raum sowohl die
-            Leistungsfähigkeit des Kanalnetzes als auch der Überstau des
-            Kanalnetzes einen Einfluss auf die Überflutungssituation haben kann.
-            Das Abflussverhalten des Kanalnetzes wurde im Rahmen dieser
-            Betrachtung nicht berücksichtigt. Relevante Retentionsräume sowie
+            Leistungsfähigkeit als auch der Überstau des Kanalnetzes einen
+            Einfluss auf die Überflutungssituation haben kann. Das
+            Abflussverhalten des Kanalnetzes wurde im Rahmen dieser Betrachtung
+            nicht berücksichtigt. Relevante Retentionsräume sowie
             Gewässerverrohrungen und Durchlässe wurden aufgrund ihrer Bedeutung
             für die Ableitungs- und Speicherwirkung von Oberflächenwasser als
             Elemente in das Modell aufgenommen. Je nach Regen und
-            Randbedingungen in der Realität (z.B. Verklausungen, Baustellen,
+            Randbedingungen in der Realität (z.B. Verklausungen, Baustellen,{" "}
             Sofortmaßnahmen etc.) können in Teilgebieten die Wassertiefen auf
             dem Gelände höher oder geringer ausfallen.{" "}
           </p>

@@ -54,7 +54,7 @@ const Component = () => {
             Regenrückhaltebecken) mit ihrer Wirkung im Oberflächenmodell
             abgebildet. Zusätzlich wurden die Gebäude auf Aktualität geprüft und
             abgerissene oder geplante Gebäude gegebenenfalls angepasst. Sehr
-            neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z.B.{" "}
+            neue Gebäude, die nach dem Modellaufbau fertiggestellt wurden (z. B.{" "}
             Neubaugebiete) sind daher noch nicht im Datenbestand erfasst. Hier
             lassen sich dennoch wichtige Hinweise aus dem angrenzenden Gelände
             zur möglichen Überflutung ableiten (s. auch Schaltfläche: Fehler im
@@ -75,7 +75,7 @@ const Component = () => {
             Gewässerverrohrungen und Durchlässe wurden aufgrund ihrer Bedeutung
             für die Ableitungs- und Speicherwirkung von Oberflächenwasser als
             Elemente in das Modell aufgenommen. Je nach Regen und
-            Randbedingungen in der Realität (z.B. Verklausungen, Baustellen,{" "}
+            Randbedingungen in der Realität (z. B. Verklausungen, Baustellen,{" "}
             Sofortmaßnahmen etc.) können in Teilgebieten die Wassertiefen auf
             dem Gelände höher oder geringer ausfallen.{" "}
           </p>

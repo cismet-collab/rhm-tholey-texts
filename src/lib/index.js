@@ -43,7 +43,7 @@ const getCollabedHelpComponentConfig = ({
   ];
   const menuFooter = (
     <Help99Footer
-      hintergrundkartenText=" DOP © LVGL | Basiskarte (grau/bunt) © cismet | Openmaptiles | ODbL"
+      hintergrundkartenText=" DOP © LVGL | Basiskarte (grau/bunt) © BKG basemap.de"
       taglineModelling={
         <div>
           <b>Modellierung</b> (Version 1.0 | 11/2021):{" "}

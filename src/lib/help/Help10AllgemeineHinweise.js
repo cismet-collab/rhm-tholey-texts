@@ -30,7 +30,6 @@ const Component = () => {
             Hinweise zu den Datengrundlagen und zur Aussagekraft der Ergebnisse
             werden nachfolgend beschrieben.
           </p>
-
           <p>
             Das Ergebnis der Simulation ist von der Dauer und Intensität des
             Regens abhängig. Das dargestellte Szenario zeigt ein
@@ -63,13 +62,14 @@ const Component = () => {
             Der untere Grenzwert für die farbige Anzeige einer
             Fließgeschwindigkeit liegt bei 0,2 m/s.
           </p>
+          :
           <p>
             Zusätzlich zu den maximalen Wassertiefen und zu den maximalen
             Fließgeschwindigkeiten informiert die Starkregengefahrenkarte über
-            das <strong>Gefährdungspotenzial der Gebäude</strong> in Tholey.
-            Übersteigt der Wasserstand im Umkreis von 1 m um ein Gebäude die
-            folgenden Werte werden die Gebäude entsprechend farblich
-            dargestellt:
+            das <strong>Gefährdungspotenzial der Gebäude</strong> in der
+            Gemeinde Tholey. Übersteigt der Wasserstand im Umkreis von 1 m um
+            ein Gebäude die folgenden Werte werden die Gebäude entsprechend
+            farblich dargestellt:
             <ul>
               <li>&lt; 0,25 m – schwarz</li>
               <li>0,5 m – gelb </li>
@@ -77,7 +77,6 @@ const Component = () => {
               <li>&gt; 1,0 m – rot</li>
             </ul>
           </p>
-
           <p>
             Die Starkregengefahrenkarte der Gemeinde Tholey wurde im Rahmen des
             Projektes Klimaanpassungsnetzwerk Tholey (KAN-T) durch die IZES
@@ -87,7 +86,6 @@ const Component = () => {
             Anpassung an die Folgen des Klimawandels" gefördert. Das Projekt
             wurde im April 2022 abgeschlossen.
           </p>
-
           <p>
             Die Gemeinde Tholey hat sich nach Projektende dazu entschlossen sich
             weiterhin der Thematik „Anpassung an den Klimawandel“ zu widmen und

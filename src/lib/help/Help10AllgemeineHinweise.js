@@ -62,7 +62,6 @@ const Component = () => {
             Der untere Grenzwert für die farbige Anzeige einer
             Fließgeschwindigkeit liegt bei 0,2 m/s.
           </p>
-          :
           <p>
             Zusätzlich zu den maximalen Wassertiefen und zu den maximalen
             Fließgeschwindigkeiten informiert die Starkregengefahrenkarte über
